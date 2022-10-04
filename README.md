@@ -6,5 +6,5 @@ Dilemma
 3. There is a good chance we are consuming bias data from the start of the digital era.
 
 To discuss on dilemma
-4. Let me know if you feel the same regarding unknown biased in data. Feel free to ping me if you have any project ideas.
-5. Mail id: ***siai.chaitanyap@gmail.com***
+1. Let me know if you feel the same regarding unknown biased in data. Feel free to ping me if you have any project ideas.
+2. Mail id: ***siai.chaitanyap@gmail.com***
