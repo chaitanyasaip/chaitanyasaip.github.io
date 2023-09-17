@@ -1,4 +1,5 @@
-## Wanna be# Machine Learning Engineer
+### Wanna be a
+# Machine Learning Engineer
 :smiley: I am an ML enthusisast pursuing masters in Machine Learning.
 
 ### Education
