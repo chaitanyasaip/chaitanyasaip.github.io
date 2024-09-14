@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { Twitter, Moon, Sun } from 'lucide-react';
+import { Twitter, Github, Linkedin, Mail, Moon, Sun } from 'lucide-react';
 import data from './data';
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
+    console.log('Toggle dark mode clicked');
+    setDarkMode(prevMode => !prevMode);
   };
 
   return (
@@ -15,14 +16,14 @@ const Portfolio = () => {
         <header className="mb-16 text-center relative">
           <button
             onClick={toggleDarkMode}
-            className="absolute top-0 right-0 p-2 rounded-full hover:bg-gray-700 transition-colors"
+            className="absolute top-4 right-4 p-2 rounded-full hover:bg-gray-700 transition-colors"
             aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
           >
             {darkMode ? <Sun size={24} /> : <Moon size={24} />}
           </button>
           <img src="/api/placeholder/100/100" alt="Profile" className="w-24 h-24 rounded-full mx-auto mb-6" />
           <h1 className={`text-3xl font-bold ${darkMode ? 'text-white' : 'text-black'} mb-2`}>Sai Chaitanya Pachipulusu</h1>
-          <p className="text-lg text-gray-500">software engineer • ai • blockchain</p>
+          <p className="text-lg text-gray-500">machine learning engineer • ai • art</p>
         </header>
 
         <section className="mb-16">
@@ -64,6 +65,18 @@ const Portfolio = () => {
           <a href="https://x.com/chai_anya" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-400 hover:underline">
             <Twitter size={20} className="mr-2" />
             <span className="text-lg">@chai_anya</span>
+          </a>
+          <a href="https://github.com/chaitanyasaip" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-400 hover:underline">
+            <Github size={20} className="mr-2" />
+            <span className="text-lg">GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/psaichaitanya/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-400 hover:underline">
+            <Linkedin size={20} className="mr-2" />
+            <span className="text-lg">LinkedIn</span>
+          </a>
+          <a href="mailto:siai.chaitanyap@gmail.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-400 hover:underline">
+            <Mail size={20} className="mr-2" />
+            <span className="text-lg">Email</span>
           </a>
         </footer>
       </div>
