@@ -45,55 +45,57 @@ const Portfolio = () => {
   return (
     <div className="bg-black text-gray-300 min-h-screen font-sans p-8">
       <div className="max-w-2xl mx-auto">
-        <header className="mb-12 text-center">
-          <img src="/api/placeholder/100/100" alt="Profile" className="w-24 h-24 rounded-full mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-white mb-2">Sai Chaitanya Pachipulusu</h1>
-          <p className="text-gray-500">software engineer • ai • data</p>
+        <header className="mb-16 text-center">
+          <img src="/api/placeholder/100/100" alt="Profile" className="w-24 h-24 rounded-full mx-auto mb-6" />
+          <h1 className="text-3xl font-bold text-white mb-2">Sai Chaitanya Pachipulusu</h1>
+          <p className="text-lg text-gray-500">software engineer • ai • blockchain</p>
         </header>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-semibold text-white mb-4">About</h2>
-          <p className="mb-4">
-            I currently work at [redacted] and building roundzero on the side. More details soon.
-          </p>
-          <p className="mb-4">
-            I am passionate about applying the use of AI to solve real-world problems.
-          </p>
-          <p className="mb-4">
-            I care deeply about performance and UX/UI of applied AI systems. I am also an avid enjoyer of building something people want. I am undecided so I try to describe my work as much as possible without giving away my identity.
-          </p>
+        <section className="mb-16">
+          <h2 className="text-2xl font-semibold text-white mb-4">About</h2>
+          <div className="space-y-4 text-gray-400">
+            <p>
+              I currently work at [redacted] and building roundzero on the side. More details soon.
+            </p>
+            <p>
+              I am passionate about applying the use of AI to solve real-world problems.
+            </p>
+            <p>
+              I care deeply about performance and UX/UI of applied AI systems. I am also an avid enjoyer of building something people want. I am undecided so I try to describe my work as much as possible without giving away my identity.
+            </p>
+          </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-semibold text-white mb-4">Essays</h2>
-          <ul className="space-y-2">
+        <section className="mb-16">
+          <h2 className="text-2xl font-semibold text-white mb-6">Essays</h2>
+          <ul className="space-y-4">
             {essays.map((essay, index) => (
-              <li key={index} className="flex justify-between">
-                <span className="text-gray-500">{essay.date}</span>
-                <a href="#" className="text-blue-400 hover:underline">{essay.title}</a>
+              <li key={index} className="flex justify-between items-center">
+                <span className="text-sm text-gray-500">{essay.date}</span>
+                <a href="#" className="text-lg text-blue-400 hover:underline">{essay.title} →</a>
               </li>
             ))}
           </ul>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-semibold text-white mb-4">Work Experience</h2>
+        <section className="mb-16">
+          <h2 className="text-2xl font-semibold text-white mb-6">Work Experience</h2>
           {experience.map((job, index) => (
-            <div key={index} className="mb-6">
-              <div className="flex justify-between mb-1">
-                <span className="text-gray-500">{job.period}</span>
-                <a href="#" className="text-blue-400 hover:underline">{job.title}</a>
+            <div key={index} className="mb-8">
+              <div className="flex justify-between items-center mb-2">
+                <span className="text-sm text-gray-500">{job.period}</span>
+                <a href="#" className="text-lg text-blue-400 hover:underline">{job.title} →</a>
               </div>
-              <p className="mb-2">{job.description}</p>
-              <p className="text-gray-500">{job.tech}</p>
+              <p className="mb-2 text-gray-300">{job.description}</p>
+              <p className="text-sm text-gray-500">{job.tech}</p>
             </div>
           ))}
         </section>
 
         <footer className="text-center">
-          <a href="https://twitter.com/0xluffyb" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline flex items-center justify-center">
-            <Twitter size={16} className="mr-2" />
-            @0xluffyb
+          <a href="https://twitter.com/0xluffyb" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-400 hover:underline">
+            <Twitter size={20} className="mr-2" />
+            <span className="text-lg">@0xluffyb</span>
           </a>
         </footer>
       </div>
