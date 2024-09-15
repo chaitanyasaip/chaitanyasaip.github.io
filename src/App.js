@@ -36,12 +36,12 @@ const Portfolio = () => {
         </section>
 
         <section className="mb-16">
-          <h2 className={`text-2xl font-semibold ${darkMode ? 'text-white' : 'text-black'} mb-6`}>Essays</h2>
+          <h2 className={`text-2xl font-semibold ${darkMode ? 'text-white' : 'text-black'} mb-6`}>Blogs</h2>
           <ul className="space-y-4">
-            {data.essays.map((essay, index) => (
+            {data.blogs.map((blog, index) => (
               <li key={index} className="flex justify-between items-center">
-                <span className="text-sm text-gray-500">{essay.date}</span>
-                <a href="#" className="text-lg text-blue-400 hover:underline">{essay.title} →</a>
+                <span className="text-sm text-gray-500">{blog.date}</span>
+                <a href="#" className="text-lg text-blue-400 hover:underline">{blog.title} →</a>
               </li>
             ))}
           </ul>

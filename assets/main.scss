@@ -1,0 +1,39 @@
+---
+---
+
+@import "minima";
+
+.blogs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blogs-item {
+  margin-bottom: 1.5em;
+}
+
+.blogs-title {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+  
+  a {
+    color: #0366d6;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.blogs-date {
+  font-size: 0.9em;
+  color: #666;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.blogs-description {
+  margin-top: 0.5em;
+  color: #333;
+}
