@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.72297e7f.chunk.css",
-    "main.js": "/static/js/main.bd590274.chunk.js",
-    "main.js.map": "/static/js/main.bd590274.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d519bcb4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d519bcb4.js.map",
-    "static/js/2.7bf70b75.chunk.js": "/static/js/2.7bf70b75.chunk.js",
-    "static/js/2.7bf70b75.chunk.js.map": "/static/js/2.7bf70b75.chunk.js.map",
-    "static/js/3.cde6df60.chunk.js": "/static/js/3.cde6df60.chunk.js",
-    "static/js/3.cde6df60.chunk.js.map": "/static/js/3.cde6df60.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.be0273b5899b232b4f1dfefd28dc0b07.js": "/precache-manifest.be0273b5899b232b4f1dfefd28dc0b07.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.72297e7f.chunk.css.map": "/static/css/main.72297e7f.chunk.css.map",
-    "static/js/2.7bf70b75.chunk.js.LICENSE.txt": "/static/js/2.7bf70b75.chunk.js.LICENSE.txt"
+    "main.css": "/chaitanyasaip.github.io/static/css/main.6cb27d1d.css",
+    "main.js": "/chaitanyasaip.github.io/static/js/main.d97499b4.js",
+    "static/js/453.1407b060.chunk.js": "/chaitanyasaip.github.io/static/js/453.1407b060.chunk.js",
+    "index.html": "/chaitanyasaip.github.io/index.html",
+    "main.6cb27d1d.css.map": "/chaitanyasaip.github.io/static/css/main.6cb27d1d.css.map",
+    "main.d97499b4.js.map": "/chaitanyasaip.github.io/static/js/main.d97499b4.js.map",
+    "453.1407b060.chunk.js.map": "/chaitanyasaip.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d519bcb4.js",
-    "static/js/2.7bf70b75.chunk.js",
-    "static/css/main.72297e7f.chunk.css",
-    "static/js/main.bd590274.chunk.js"
+    "static/css/main.6cb27d1d.css",
+    "static/js/main.d97499b4.js"
   ]
 }
