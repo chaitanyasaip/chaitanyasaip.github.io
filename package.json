@@ -14,7 +14,7 @@
     "shell-quote": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://chaitanyasaip.github.io",
+  "homepage": "https://chaitanyasaip.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
