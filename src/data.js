@@ -29,7 +29,6 @@ const data = {
         description: 'Developed a deep learning model with 97% accuracy in facial expression detection. Implemented image processing pipeline for vehicle ID recognition, serving 50,000 daily active users. Created interactive dashboards, improving data accessibility by 85%.',
         tech: 'OpenCV • PyTorch • FastAPI • Git • AWS • YOLO',
       },
-      
     ],
   };
   
