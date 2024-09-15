@@ -6,7 +6,7 @@ const data = {
     ],
     blogs: [
       { date: '10 Oct 2021', title: "Potato Disease Deep Learning Project" },
-      { date: '4 Sep 2022', title: 'Applying to Graduate school (checklist)' },
+      { date: '4 Sep 2022', title: "Applying to Graduate school (checklist)" },
     ],
     experience: [
       {
@@ -25,7 +25,7 @@ const data = {
         period: '2018 - 2020',
         title: 'Machine Learning Engineer - Imbuedesk',
         description: 'Developed a deep learning model with 97% accuracy in facial expression detection. Implemented image processing pipeline for vehicle ID recognition, serving 50,000 daily active users. Created interactive dashboards, improving data accessibility by 85%.',
-        tech: 'OpenCV • PyTorch • FastAPI • Git • AWS • YOLO',
+        tech: 'OpenCV • PyTorch • FastAPI • Git • AWS',
       },
     ],
   };
