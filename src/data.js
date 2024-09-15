@@ -5,10 +5,8 @@ const data = {
       "Results-driven graduate with 4+ years of experience in data analysis, visualizations, machine learning, statistics, data science, building ETL pipelines and advanced NLP techniques (DNN, LLMS, RAG). Seeking Machine Learning Engineer role."
     ],
     blogs: [
-      { date: '9 Sep 2024', title: "You don't need discipline" },
-      { date: '17 Jul 2024', title: 'Activation Energy' },
-      { date: '1 Jul 2024', title: 'Consistency vs Intensity' },
-      { date: '29 June 2024', title: 'Taking Responsibility' },
+      { date: '10 Oct 2021', title: "Potato Disease Deep Learning Project" },
+      { date: '4 Sep 2022', title: 'Applying to Graduate school (checklist)' },
     ],
     experience: [
       {
